@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark"
+    android:background="@color/rojoFerrari"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,6 +16,7 @@
         android:layout_marginTop="40dp"
         android:text="Tu coche favorito"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ferrari F40"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <RadioButton
@@ -42,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ferrari Enzo"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <RadioButton
@@ -49,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ferrari FXXK"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <RadioButton
@@ -56,6 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ferrari 312 GTO"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
     </RadioGroup>
 
